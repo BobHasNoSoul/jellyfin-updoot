@@ -1,4 +1,7 @@
 # jellyfin-updoot
+
+confirmed working on 10.11.0
+
 this is an injection mod for jellyfin that adds a thumbs up, comments section and reccomended by users page
 
 this is created to give users an interaction and ideas of things to watch, want to warn someone about some movie being terrible and not worth their time, leave a comment
