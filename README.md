@@ -2,6 +2,10 @@
 
 confirmed working on 10.11.0
 
+whats new? 
+
+added a sort function and page function so you can page through them and not just get greeted with a near endless list, sort by popular (how many people have recommended that item), a-z, users a-z that recommended (so if gary has great taste in movies there all then grouped together), genre (so you want a comedy or something and see what comedys people recommend).. minor ui tweaks and rework of the db system to add a few things required to make this play nice.
+
 this is an injection mod for jellyfin that adds a thumbs up, comments section and reccomended by users page
 
 this is created to give users an interaction and ideas of things to watch, want to warn someone about some movie being terrible and not worth their time, leave a comment
