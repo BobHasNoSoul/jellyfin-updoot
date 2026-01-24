@@ -13,10 +13,10 @@ if (!document.querySelector('link[href*="material-icons"]')) {
 const jellyfinCredentials = JSON.parse(localStorage.getItem('jellyfin_credentials') || '{}');
 const server = jellyfinCredentials.Servers && jellyfinCredentials.Servers[0];
 const apiKey = server ? server.AccessToken : '';
-const serverUrl = server ? server.ManualAddress || server.LocalAddress : 'https://www.blueboxofdoom.uk';
+const serverUrl = server ? server.ManualAddress || server.LocalAddress : 'https://YOURURLHERE';
 const userId = server ? server.UserId : '';
 const backendUrl = `${window.location.origin}/updoot`;
-const adminUserIds = ['762f35bf5166424eac5cff6ddf9033cd', 'USERID2']; // Replace with your actual admin IDs
+const adminUserIds = ['USER1', 'USERID2']; // Replace with your actual admin IDs
 
 console.log('Credentials:', { serverUrl, apiKey, userId, backendUrl, isAdmin: adminUserIds.includes(userId) });
 
